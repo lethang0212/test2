@@ -1,12 +1,12 @@
 const STATE = {
-    color: 'green',
-}
+  color: "green",
+};
 
 export default function reducer(state = STATE, action) {
-    switch(action.type) {
-        case 'GET_COLOR' :
-            return {...state, color: action.color};
-        default : 
-            return state;
-    }
+  switch (action.type) {
+    case "GET_COLOR":
+      return { ...state, color: action.color };
+    default:
+      return state;
+  }
 }

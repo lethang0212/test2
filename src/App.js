@@ -1,11 +1,5 @@
-import { Provider } from "react-redux";
-import { Example } from "./application";
-import { store } from "./store";
+import React from "react";
 
 export function App() {
-  return (
-    <Provider store={store}>
-      <Example />
-    </Provider>
-  );
+  return <div>day la test</div>;
 }
